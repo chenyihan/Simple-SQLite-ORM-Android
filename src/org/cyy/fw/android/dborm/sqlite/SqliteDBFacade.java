@@ -49,8 +49,8 @@ import android.util.Log;
  * public static class TestTable
  * {
  * }
- * The above class will mapping to the table named 't1'.
  * </pre>
+ * The above class will mapping to the table named 't1'.<br>
  * 
  * The framework allow a java class mappings several tables, the name attribute
  * is a array type.

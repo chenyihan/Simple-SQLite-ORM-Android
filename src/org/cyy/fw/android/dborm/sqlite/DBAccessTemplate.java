@@ -10,10 +10,12 @@ import android.util.Log;
  * 
  * DB Accessing template<BR>
  * Extract some common codes for accessing DB, such as will call
- * {@link SQLiteDatabase#beginTransaction()} when begin to access table, will
- * call {@link SQLiteDatabase#setTransactionSuccessful()} after accessing
- * successfully, and will call {@link SQLiteDatabase#endTransaction()} to end
- * the logic. The user's code only need to implement the {@link IDBAccessLogic}
+ * {@link android.database.sqlite.SQLiteDatabase#beginTransaction()} when begin
+ * to access table, will call
+ * {@link android.database.sqlite.SQLiteDatabase#setTransactionSuccessful()}
+ * after accessing successfully, and will call
+ * {@link android.database.sqlite.SQLiteDatabase#endTransaction()} to end the
+ * logic. The user's code only need to implement the {@link IDBAccessLogic}
  * interface. It's the sample code as follow:
  * 
  * <pre>
